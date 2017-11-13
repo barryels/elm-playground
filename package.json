@@ -1,0 +1,26 @@
+{
+  "name": "elm-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "elm-make src/Main.elm --output public/bundle.js",
+    "dev": "elm-live --dir=./public --output=./public/bundle.js --pushstate --open --debug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barryels/elm-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barryels/elm-playground/issues"
+  },
+  "homepage": "https://github.com/barryels/elm-playground#readme",
+  "devDependencies": {
+    "elm": "^0.18.0",
+    "elm-live": "^2.7.5"
+  }
+}

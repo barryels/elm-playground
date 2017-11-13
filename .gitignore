@@ -1,0 +1,20 @@
+# Dependencies
+node_modules
+
+
+# System Files
+.DS_Store
+Thumbs.db
+npm-debug*.log
+
+
+# elm-package generated files
+elm-stuff/
+
+
+# elm-repl generated files
+repl-temp-*
+
+
+# build files
+/public/bundle.js
